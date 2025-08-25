@@ -1,0 +1,20 @@
+# Ignore Python virtual environments
+venv/
+mlops/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore results
+results/
+checkpoints/
+*.log
+
+# Ignore Ray & MLflow temp files
+ray_results/
+mlruns/
+
+# Ignore system files
+.DS_Store
+*.swp
